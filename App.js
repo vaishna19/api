@@ -1,6 +1,6 @@
 const { Sequelize, DataTypes } = require('sequelize');
 const sequelize = new Sequelize('sqlite::memorynode :');
-const db = new Sequelize('foos', 'root', 'vaishveer19', {
+const db = new Sequelize('foos', 'root', 'vaish19', {
   host: 'localhost',
   dialect: 'mysql'
 });
